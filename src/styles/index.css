@@ -1,0 +1,15 @@
+.gameboard {
+	min-height: 50vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 1rem;
+	background-color: black;
+}
+.square {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4rem;
+}
